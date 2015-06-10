@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Schroeder_ConfigViewer>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Schroeder_ConfigViewer>
+    </modules>
+</config>

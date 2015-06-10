@@ -1,0 +1,7 @@
+<config>
+    <modules>
+        <Schroeder_ConfigViewer>
+            <version>0.0.1</version>
+        </Schroeder_ConfigViewer>
+    </modules>
+</config>
