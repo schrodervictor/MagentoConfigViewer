@@ -1,0 +1,22 @@
+{
+    "name": "schrodervictor/MagentoConfigViewer",
+    "type": "magento-module",
+    "license": "MIT License",
+    "homepage": "https://github.com/schrodervictor/MagentoConfigViewer",
+    "description": "Magento extension to help developers to navigate the global config",
+    "authors": [
+        {
+            "name": "Victor Schröder",
+            "email": "schrodervictor@gmail.com"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "extra": {
+        "map": [
+            ["Schroeder_ConfigViewer.xml", "app/etc/modules/Schroeder_ConfigViewer.xml"],
+            ["code", "app/code/community/Schroeder/ConfigViewer"]
+        ]
+    }
+}
