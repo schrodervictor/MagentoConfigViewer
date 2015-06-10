@@ -4,4 +4,17 @@
             <version>0.0.1</version>
         </Schroeder_ConfigViewer>
     </modules>
+    <global>
+        <events>
+            <controller_front_init_routers>
+                <observers>
+                    <Schroeder_ConfigViewer_Model_Observer>
+                        <type>singleton</type>
+                        <class>Schroeder_ConfigViewer_Model_Observer</class>
+                        <method>checkShowConfigRequest</method>
+                    </Schroeder_ConfigViewer_Model_Observer>
+                </observers>
+            </controller_front_init_routers>
+        </events>
+    </global>
 </config>
