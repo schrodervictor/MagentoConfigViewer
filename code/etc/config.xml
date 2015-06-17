@@ -8,13 +8,22 @@
         <events>
             <controller_front_init_routers>
                 <observers>
-                    <Schroeder_ConfigViewer_Model_Observer>
+                    <Schroeder_ConfigViewer_Model_Observer_Config>
                         <type>singleton</type>
                         <class>Schroeder_ConfigViewer_Model_Observer</class>
                         <method>checkShowConfigRequest</method>
-                    </Schroeder_ConfigViewer_Model_Observer>
+                    </Schroeder_ConfigViewer_Model_Observer_Config>
                 </observers>
             </controller_front_init_routers>
+            <controller_action_layout_render_before>
+                <observers>
+                    <Schroeder_ConfigViewer_Model_Observer_Layout>
+                        <type>singleton</type>
+                        <class>Schroeder_ConfigViewer_Model_Observer</class>
+                        <method>checkShowLayoutRequest</method>
+                    </Schroeder_ConfigViewer_Model_Observer_Layout>
+                </observers>
+            </controller_action_layout_render_before>
         </events>
     </global>
 </config>
